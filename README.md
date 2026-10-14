@@ -3,8 +3,7 @@
 繁體中文 50 Startups 多元線性迴歸互動網站。資料來源為使用者指定 GitHub CSV，原始 Notebook 作為分析背景。
 
 線上網站：https://startup-lab-iota.vercel.app/
-![Uploading image.png…]()
-
+![Startup Lab 模型表現截圖](image.png)
 
 ## 分析頁面
 
