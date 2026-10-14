@@ -1,0 +1,8 @@
+.venv/
+.vercel/
+node_modules/
+dist/
+__pycache__/
+engine-check.json
+
+.vercel

@@ -1,0 +1,439 @@
+{
+  "source": "https://gist.githubusercontent.com/GaneshSparkz/b5662effbdae8746f7f7d8ed70c42b2d/raw/faf8b1a0d58e251f48a647d3881e7a960c3f0925/50_Startups.csv",
+  "trainSize": 40,
+  "comparisonSize": 10,
+  "seed": 0,
+  "results": [
+    {
+      "count": 1,
+      "features": [
+        "R&D Spend"
+      ],
+      "added": "R&D Spend",
+      "rmse": 8274.86801822599,
+      "r2": 0.9464587607787219,
+      "intercept": 48416.297661385026,
+      "coefficients": [
+        0.8516227998779371
+      ],
+      "predictions": [
+        {
+          "id": 28,
+          "actual": 103282.38,
+          "predicted": 104667.27805997859
+        },
+        {
+          "id": 11,
+          "actual": 144259.4,
+          "predicted": 134150.8341057847
+        },
+        {
+          "id": 10,
+          "actual": 146121.95,
+          "predicted": 135207.80019516923
+        },
+        {
+          "id": 41,
+          "actual": 77798.83,
+          "predicted": 72170.54428855634
+        },
+        {
+          "id": 2,
+          "actual": 191050.39,
+          "predicted": 179090.58602508352
+        },
+        {
+          "id": 27,
+          "actual": 105008.31,
+          "predicted": 109824.77386586336
+        },
+        {
+          "id": 38,
+          "actual": 81229.06,
+          "predicted": 65644.27773756774
+        },
+        {
+          "id": 31,
+          "actual": 97483.56,
+          "predicted": 100481.43277138655
+        },
+        {
+          "id": 22,
+          "actual": 110352.25,
+          "predicted": 111431.75202432103
+        },
+        {
+          "id": 4,
+          "actual": 166187.94,
+          "predicted": 169438.148435391
+        }
+      ],
+      "candidates": [
+        {
+          "feature": "R&D Spend",
+          "rmse": 8274.86801822599,
+          "r2": 0.9464587607787219
+        },
+        {
+          "feature": "Administration",
+          "rmse": 45669.70577941753,
+          "r2": -0.6308825840983825
+        },
+        {
+          "feature": "Marketing Spend",
+          "rmse": 25529.05388787035,
+          "r2": 0.49039262125463223
+        },
+        {
+          "feature": "State_Florida",
+          "rmse": 37588.05292629757,
+          "r2": -0.10475487564389918
+        },
+        {
+          "feature": "State_New York",
+          "rmse": 41366.023295934756,
+          "r2": -0.3379929093925118
+        }
+      ]
+    },
+    {
+      "count": 2,
+      "features": [
+        "R&D Spend",
+        "Marketing Spend"
+      ],
+      "added": "Marketing Spend",
+      "rmse": 8198.797190788488,
+      "r2": 0.9474386447268488,
+      "intercept": 46346.338761236555,
+      "coefficients": [
+        0.7886182999424615,
+        0.032576627317020684
+      ],
+      "predictions": [
+        {
+          "id": 28,
+          "actual": 103282.38,
+          "predicted": 102284.64605182887
+        },
+        {
+          "id": 11,
+          "actual": 144259.4,
+          "predicted": 133873.92383811908
+        },
+        {
+          "id": 10,
+          "actual": 146121.95,
+          "predicted": 134182.14951650103
+        },
+        {
+          "id": 41,
+          "actual": 77798.83,
+          "predicted": 73701.10693630342
+        },
+        {
+          "id": 2,
+          "actual": 191050.39,
+          "predicted": 180642.25299736104
+        },
+        {
+          "id": 27,
+          "actual": 105008.31,
+          "predicted": 114717.24903894303
+        },
+        {
+          "id": 38,
+          "actual": 81229.06,
+          "predicted": 68335.07575312015
+        },
+        {
+          "id": 31,
+          "actual": 97483.56,
+          "predicted": 97433.45922275007
+        },
+        {
+          "id": 22,
+          "actual": 110352.25,
+          "predicted": 114580.92136452152
+        },
+        {
+          "id": 4,
+          "actual": 166187.94,
+          "predicted": 170343.3197949842
+        }
+      ],
+      "candidates": [
+        {
+          "feature": "Administration",
+          "rmse": 8237.540194485355,
+          "r2": 0.9469407189577184
+        },
+        {
+          "feature": "Marketing Spend",
+          "rmse": 8198.797190788488,
+          "r2": 0.9474386447268488
+        },
+        {
+          "feature": "State_Florida",
+          "rmse": 8217.446447873413,
+          "r2": 0.947199257159004
+        },
+        {
+          "feature": "State_New York",
+          "rmse": 8273.828202485938,
+          "r2": 0.9464722158635015
+        }
+      ]
+    },
+    {
+      "count": 3,
+      "features": [
+        "R&D Spend",
+        "Marketing Spend",
+        "State_New York"
+      ],
+      "added": "State_New York",
+      "rmse": 8309.05968348172,
+      "r2": 0.9460153830071389,
+      "intercept": 46100.29130551415,
+      "coefficients": [
+        0.7858709815066744,
+        0.033271829410322355,
+        864.0018700527347
+      ],
+      "predictions": [
+        {
+          "id": 28,
+          "actual": 103282.38,
+          "predicted": 101939.27091345855
+        },
+        {
+          "id": 11,
+          "actual": 144259.4,
+          "predicted": 133524.92138467255
+        },
+        {
+          "id": 10,
+          "actual": 146121.95,
+          "predicted": 133815.4275493898
+        },
+        {
+          "id": 41,
+          "actual": 77798.83,
+          "predicted": 73492.76912911588
+        },
+        {
+          "id": 2,
+          "actual": 191050.39,
+          "predicted": 180258.24979853866
+        },
+        {
+          "id": 27,
+          "actual": 105008.31,
+          "predicted": 115382.63503846526
+        },
+        {
+          "id": 38,
+          "actual": 81229.06,
+          "predicted": 69026.24972723081
+        },
+        {
+          "id": 31,
+          "actual": 97483.56,
+          "predicted": 97944.78203137248
+        },
+        {
+          "id": 22,
+          "actual": 110352.25,
+          "predicted": 114342.45547445386
+        },
+        {
+          "id": 4,
+          "actual": 166187.94,
+          "predicted": 169961.4192763041
+        }
+      ],
+      "candidates": [
+        {
+          "feature": "Administration",
+          "rmse": 8803.775790469346,
+          "r2": 0.939395591782057
+        },
+        {
+          "feature": "State_Florida",
+          "rmse": 8376.450519769327,
+          "r2": 0.9451361446943417
+        },
+        {
+          "feature": "State_New York",
+          "rmse": 8309.05968348172,
+          "r2": 0.9460153830071389
+        }
+      ]
+    },
+    {
+      "count": 4,
+      "features": [
+        "R&D Spend",
+        "Marketing Spend",
+        "State_New York",
+        "State_Florida"
+      ],
+      "added": "State_Florida",
+      "rmse": 8409.916714488054,
+      "r2": 0.9446968769428332,
+      "intercept": 46329.060178542495,
+      "coefficients": [
+        0.7851417173112172,
+        0.033956402340301096,
+        554.657332826717,
+        -826.4681587619036
+      ],
+      "predictions": [
+        {
+          "id": 28,
+          "actual": 103282.38,
+          "predicted": 101374.28367857917
+        },
+        {
+          "id": 11,
+          "actual": 144259.4,
+          "predicted": 133851.2421601261
+        },
+        {
+          "id": 10,
+          "actual": 146121.95,
+          "predicted": 133300.28408634168
+        },
+        {
+          "id": 41,
+          "actual": 77798.83,
+          "predicted": 72987.32073135997
+        },
+        {
+          "id": 2,
+          "actual": 191050.39,
+          "predicted": 179827.91205675254
+        },
+        {
+          "id": 27,
+          "actual": 105008.31,
+          "predicted": 115491.25395900001
+        },
+        {
+          "id": 38,
+          "actual": 81229.06,
+          "predicted": 69057.74881968716
+        },
+        {
+          "id": 31,
+          "actual": 97483.56,
+          "predicted": 97880.01360638958
+        },
+        {
+          "id": 22,
+          "actual": 110352.25,
+          "predicted": 113898.4387599909
+        },
+        {
+          "id": 4,
+          "actual": 166187.94,
+          "predicted": 169510.75518374197
+        }
+      ],
+      "candidates": [
+        {
+          "feature": "Administration",
+          "rmse": 8997.199285978557,
+          "r2": 0.9367033175958817
+        },
+        {
+          "feature": "State_Florida",
+          "rmse": 8409.916714488054,
+          "r2": 0.9446968769428332
+        }
+      ]
+    },
+    {
+      "count": 5,
+      "features": [
+        "R&D Spend",
+        "Marketing Spend",
+        "State_New York",
+        "State_Florida",
+        "Administration"
+      ],
+      "added": "Administration",
+      "rmse": 9137.99015279461,
+      "r2": 0.9347068473282473,
+      "intercept": 42554.16761773672,
+      "coefficients": [
+        0.773467192732945,
+        0.03661002586378126,
+        699.369052518143,
+        -959.2841600576189,
+        0.03288459753626341
+      ],
+      "predictions": [
+        {
+          "id": 28,
+          "actual": 103282.38,
+          "predicted": 103015.20159796772
+        },
+        {
+          "id": 11,
+          "actual": 144259.4,
+          "predicted": 132582.2776081566
+        },
+        {
+          "id": 10,
+          "actual": 146121.95,
+          "predicted": 132447.73845174705
+        },
+        {
+          "id": 41,
+          "actual": 77798.83,
+          "predicted": 71976.09851257515
+        },
+        {
+          "id": 2,
+          "actual": 191050.39,
+          "predicted": 178537.4822105469
+        },
+        {
+          "id": 27,
+          "actual": 105008.31,
+          "predicted": 116161.24230163921
+        },
+        {
+          "id": 38,
+          "actual": 81229.06,
+          "predicted": 67851.69209674902
+        },
+        {
+          "id": 31,
+          "actual": 97483.56,
+          "predicted": 98791.73374688113
+        },
+        {
+          "id": 22,
+          "actual": 110352.25,
+          "predicted": 113969.4353301172
+        },
+        {
+          "id": 4,
+          "actual": 166187.94,
+          "predicted": 167921.06569550192
+        }
+      ],
+      "candidates": [
+        {
+          "feature": "Administration",
+          "rmse": 9137.99015279461,
+          "r2": 0.9347068473282473
+        }
+      ]
+    }
+  ],
+  "bestCount": 2
+}

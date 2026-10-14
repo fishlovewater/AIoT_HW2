@@ -1,0 +1,565 @@
+{
+  "source": "https://raw.githubusercontent.com/harimittapalli/Mulitple-Linear-Reggression/master/50_Startups.csv",
+  "metrics": {
+    "r2": 0.9347068473282966,
+    "mae": 7514.293659636894,
+    "mse": 83502864.03250822,
+    "rmse": 9137.99015279116
+  },
+  "intercept": 42554.16761776614,
+  "coefficients": [
+    -959.2841600540311,
+    699.3690525189222,
+    0.7734671927329018,
+    0.03288459753608919,
+    0.036610025863751616
+  ],
+  "states": [
+    "California",
+    "Florida",
+    "New York"
+  ],
+  "rows": [
+    {
+      "id": 0,
+      "rd": 165349.2,
+      "admin": 136897.8,
+      "marketing": 471784.1,
+      "state": "New York",
+      "profit": 192261.83,
+      "predicted": 192919.57537459896,
+      "split": "train"
+    },
+    {
+      "id": 1,
+      "rd": 162597.7,
+      "admin": 151377.59,
+      "marketing": 443898.53,
+      "state": "California",
+      "profit": 191792.06,
+      "predicted": 189547.28196890716,
+      "split": "train"
+    },
+    {
+      "id": 2,
+      "rd": 153441.51,
+      "admin": 101145.55,
+      "marketing": 407934.54,
+      "state": "Florida",
+      "profit": 191050.39,
+      "predicted": 178537.4822105436,
+      "split": "test"
+    },
+    {
+      "id": 3,
+      "rd": 144372.41,
+      "admin": 118671.85,
+      "marketing": 383199.62,
+      "state": "New York",
+      "profit": 182901.99,
+      "predicted": 172852.28336636152,
+      "split": "train"
+    },
+    {
+      "id": 4,
+      "rd": 142107.34,
+      "admin": 91391.77,
+      "marketing": 366168.42,
+      "state": "Florida",
+      "profit": 166187.94,
+      "predicted": 167921.065695502,
+      "split": "test"
+    },
+    {
+      "id": 5,
+      "rd": 131876.9,
+      "admin": 99814.71,
+      "marketing": 362861.36,
+      "state": "New York",
+      "profit": 156991.12,
+      "predicted": 161822.72264069022,
+      "split": "train"
+    },
+    {
+      "id": 6,
+      "rd": 134615.46,
+      "admin": 147198.87,
+      "marketing": 127716.82,
+      "state": "California",
+      "profit": 156122.51,
+      "predicted": 156191.1012435676,
+      "split": "train"
+    },
+    {
+      "id": 7,
+      "rd": 130298.13,
+      "admin": 145530.06,
+      "marketing": 323876.68,
+      "state": "Florida",
+      "profit": 155752.6,
+      "predicted": 159019.04337112771,
+      "split": "train"
+    },
+    {
+      "id": 8,
+      "rd": 120542.52,
+      "admin": 148718.95,
+      "marketing": 311613.29,
+      "state": "New York",
+      "profit": 152211.77,
+      "predicted": 152787.95464276324,
+      "split": "train"
+    },
+    {
+      "id": 9,
+      "rd": 123334.88,
+      "admin": 108679.17,
+      "marketing": 304981.62,
+      "state": "California",
+      "profit": 149759.96,
+      "predicted": 152688.90677959053,
+      "split": "train"
+    },
+    {
+      "id": 10,
+      "rd": 101913.08,
+      "admin": 110594.11,
+      "marketing": 229160.95,
+      "state": "Florida",
+      "profit": 146121.95,
+      "predicted": 132447.73845174964,
+      "split": "test"
+    },
+    {
+      "id": 11,
+      "rd": 100671.96,
+      "admin": 91790.61,
+      "marketing": 249744.55,
+      "state": "California",
+      "profit": 144259.4,
+      "predicted": 132582.27760815827,
+      "split": "test"
+    },
+    {
+      "id": 12,
+      "rd": 93863.75,
+      "admin": 127320.38,
+      "marketing": 249839.44,
+      "state": "Florida",
+      "profit": 141585.52,
+      "predicted": 127528.92248422217,
+      "split": "train"
+    },
+    {
+      "id": 13,
+      "rd": 91992.39,
+      "admin": 135495.07,
+      "marketing": 252664.93,
+      "state": "California",
+      "profit": 134307.35,
+      "predicted": 127413.03373109363,
+      "split": "train"
+    },
+    {
+      "id": 14,
+      "rd": 119943.24,
+      "admin": 156547.42,
+      "marketing": 256512.92,
+      "state": "Florida",
+      "profit": 132602.65,
+      "predicted": 148905.98812540038,
+      "split": "train"
+    },
+    {
+      "id": 15,
+      "rd": 114523.61,
+      "admin": 122616.84,
+      "marketing": 261776.23,
+      "state": "New York",
+      "profit": 129917.04,
+      "predicted": 145449.63178398518,
+      "split": "train"
+    },
+    {
+      "id": 16,
+      "rd": 78013.11,
+      "admin": 121597.55,
+      "marketing": 264346.06,
+      "state": "California",
+      "profit": 126992.93,
+      "predicted": 116571.15139253452,
+      "split": "train"
+    },
+    {
+      "id": 17,
+      "rd": 94657.16,
+      "admin": 145077.58,
+      "marketing": 282574.31,
+      "state": "New York",
+      "profit": 125370.37,
+      "predicted": 131583.61511489574,
+      "split": "train"
+    },
+    {
+      "id": 18,
+      "rd": 91749.16,
+      "admin": 114175.79,
+      "marketing": 294919.57,
+      "state": "Florida",
+      "profit": 124266.9,
+      "predicted": 127111.48666645549,
+      "split": "train"
+    },
+    {
+      "id": 19,
+      "rd": 86419.7,
+      "admin": 153514.11,
+      "marketing": 0.0,
+      "state": "New York",
+      "profit": 122776.86,
+      "predicted": 115144.58914956554,
+      "split": "train"
+    },
+    {
+      "id": 20,
+      "rd": 76253.86,
+      "admin": 113867.3,
+      "marketing": 298664.47,
+      "state": "California",
+      "profit": 118474.03,
+      "predicted": 116212.62095131865,
+      "split": "train"
+    },
+    {
+      "id": 21,
+      "rd": 78389.47,
+      "admin": 153773.43,
+      "marketing": 299737.29,
+      "state": "New York",
+      "profit": 111313.02,
+      "predicted": 119915.38726752989,
+      "split": "train"
+    },
+    {
+      "id": 22,
+      "rd": 73994.56,
+      "admin": 122782.75,
+      "marketing": 303319.26,
+      "state": "Florida",
+      "profit": 110352.25,
+      "predicted": 113969.43533011663,
+      "split": "test"
+    },
+    {
+      "id": 23,
+      "rd": 67532.53,
+      "admin": 105751.03,
+      "marketing": 304768.73,
+      "state": "Florida",
+      "profit": 108733.99,
+      "predicted": 108464.25100330221,
+      "split": "train"
+    },
+    {
+      "id": 24,
+      "rd": 77044.01,
+      "admin": 99281.34,
+      "marketing": 140574.81,
+      "state": "New York",
+      "profit": 108552.04,
+      "predicted": 111255.82514050628,
+      "split": "train"
+    },
+    {
+      "id": 25,
+      "rd": 64664.71,
+      "admin": 139553.16,
+      "marketing": 137962.62,
+      "state": "California",
+      "profit": 107404.34,
+      "predicted": 102210.16391827374,
+      "split": "train"
+    },
+    {
+      "id": 26,
+      "rd": 75328.87,
+      "admin": 144135.98,
+      "marketing": 134050.07,
+      "state": "Florida",
+      "profit": 105733.54,
+      "predicted": 109506.72329086132,
+      "split": "train"
+    },
+    {
+      "id": 27,
+      "rd": 72107.6,
+      "admin": 127864.55,
+      "marketing": 353183.81,
+      "state": "New York",
+      "profit": 105008.31,
+      "predicted": 116161.24230163355,
+      "split": "test"
+    },
+    {
+      "id": 28,
+      "rd": 66051.52,
+      "admin": 182645.56,
+      "marketing": 118148.2,
+      "state": "Florida",
+      "profit": 103282.38,
+      "predicted": 103015.20159796256,
+      "split": "test"
+    },
+    {
+      "id": 29,
+      "rd": 65605.48,
+      "admin": 153032.06,
+      "marketing": 107138.38,
+      "state": "New York",
+      "profit": 101004.64,
+      "predicted": 102951.95967979869,
+      "split": "train"
+    },
+    {
+      "id": 30,
+      "rd": 61994.48,
+      "admin": 115641.28,
+      "marketing": 91131.24,
+      "state": "Florida",
+      "profit": 99937.59,
+      "predicted": 96684.7138730021,
+      "split": "train"
+    },
+    {
+      "id": 31,
+      "rd": 61136.38,
+      "admin": 152701.92,
+      "marketing": 88218.23,
+      "state": "New York",
+      "profit": 97483.56,
+      "predicted": 98791.73374687947,
+      "split": "test"
+    },
+    {
+      "id": 32,
+      "rd": 63408.86,
+      "admin": 129219.61,
+      "marketing": 46085.25,
+      "state": "California",
+      "profit": 97427.84,
+      "predicted": 97535.3576194176,
+      "split": "train"
+    },
+    {
+      "id": 33,
+      "rd": 55493.95,
+      "admin": 103057.49,
+      "marketing": 214634.81,
+      "state": "Florida",
+      "profit": 96778.92,
+      "predicted": 95764.42320496307,
+      "split": "train"
+    },
+    {
+      "id": 34,
+      "rd": 46426.07,
+      "admin": 157693.92,
+      "marketing": 210797.67,
+      "state": "California",
+      "profit": 96712.8,
+      "predicted": 91366.21889409416,
+      "split": "train"
+    },
+    {
+      "id": 35,
+      "rd": 46014.02,
+      "admin": 85047.44,
+      "marketing": 205517.64,
+      "state": "New York",
+      "profit": 96479.51,
+      "predicted": 89164.62849777254,
+      "split": "train"
+    },
+    {
+      "id": 36,
+      "rd": 28663.76,
+      "admin": 127056.21,
+      "marketing": 201126.82,
+      "state": "Florida",
+      "profit": 90708.19,
+      "predicted": 75306.8118504867,
+      "split": "train"
+    },
+    {
+      "id": 37,
+      "rd": 44069.95,
+      "admin": 51283.14,
+      "marketing": 197029.42,
+      "state": "California",
+      "profit": 89949.14,
+      "predicted": 85540.50570955238,
+      "split": "train"
+    },
+    {
+      "id": 38,
+      "rd": 20229.59,
+      "admin": 65947.93,
+      "marketing": 185265.1,
+      "state": "New York",
+      "profit": 81229.06,
+      "predicted": 67851.69209676136,
+      "split": "test"
+    },
+    {
+      "id": 39,
+      "rd": 38558.51,
+      "admin": 82982.09,
+      "marketing": 174999.3,
+      "state": "California",
+      "profit": 81005.76,
+      "predicted": 81513.47163492162,
+      "split": "train"
+    },
+    {
+      "id": 40,
+      "rd": 28754.33,
+      "admin": 118546.05,
+      "marketing": 172795.67,
+      "state": "California",
+      "profit": 78239.91,
+      "predicted": 75019.091613369,
+      "split": "train"
+    },
+    {
+      "id": 41,
+      "rd": 27892.92,
+      "admin": 84710.77,
+      "marketing": 164470.71,
+      "state": "Florida",
+      "profit": 77798.83,
+      "predicted": 71976.09851258734,
+      "split": "test"
+    },
+    {
+      "id": 42,
+      "rd": 23640.93,
+      "admin": 96189.63,
+      "marketing": 148001.11,
+      "state": "California",
+      "profit": 71498.49,
+      "predicted": 69421.13311312046,
+      "split": "train"
+    },
+    {
+      "id": 43,
+      "rd": 15505.73,
+      "admin": 127382.3,
+      "marketing": 35534.17,
+      "state": "New York",
+      "profit": 69758.98,
+      "predicted": 60736.532676127725,
+      "split": "train"
+    },
+    {
+      "id": 44,
+      "rd": 22177.74,
+      "admin": 154806.14,
+      "marketing": 28334.72,
+      "state": "California",
+      "profit": 65200.33,
+      "predicted": 65835.99435878397,
+      "split": "train"
+    },
+    {
+      "id": 45,
+      "rd": 1000.23,
+      "admin": 124153.04,
+      "marketing": 1903.93,
+      "state": "New York",
+      "profit": 64926.08,
+      "predicted": 48179.60744029705,
+      "split": "train"
+    },
+    {
+      "id": 46,
+      "rd": 1315.46,
+      "admin": 115816.21,
+      "marketing": 297114.46,
+      "state": "Florida",
+      "profit": 49490.75,
+      "predicted": 57298.28613016432,
+      "split": "train"
+    },
+    {
+      "id": 47,
+      "rd": 0.0,
+      "admin": 135426.92,
+      "marketing": 0.0,
+      "state": "California",
+      "profit": 42559.73,
+      "predicted": 47007.62737751829,
+      "split": "train"
+    },
+    {
+      "id": 48,
+      "rd": 542.05,
+      "admin": 51743.15,
+      "marketing": 0.0,
+      "state": "New York",
+      "profit": 35673.41,
+      "predicted": 45374.347225105426,
+      "split": "train"
+    },
+    {
+      "id": 49,
+      "rd": 0.0,
+      "admin": 116983.8,
+      "marketing": 45173.06,
+      "state": "California",
+      "profit": 14681.4,
+      "predicted": 48054.9196939533,
+      "split": "train"
+    }
+  ],
+  "correlation": [
+    [
+      1.0,
+      0.24195524508168925,
+      0.7242481330538794,
+      0.9729004656594831
+    ],
+    [
+      0.24195524508168925,
+      1.0,
+      -0.03215387512538653,
+      0.20071656826872125
+    ],
+    [
+      0.7242481330538794,
+      -0.03215387512538653,
+      1.0,
+      0.7477657217414768
+    ],
+    [
+      0.9729004656594831,
+      0.20071656826872125,
+      0.7477657217414768,
+      1.0
+    ]
+  ],
+  "testIds": [
+    28,
+    11,
+    10,
+    41,
+    2,
+    27,
+    38,
+    31,
+    22,
+    4
+  ],
+  "trainSize": 40,
+  "testSize": 10,
+  "seed": 0
+}
