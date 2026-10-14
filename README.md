@@ -27,7 +27,7 @@ npm run build
 npm run dev
 ```
 
-網站：http://localhost:3000。將 `train.py` 貼到 Kaggle Python Notebook 亦可執行（開啟 Internet）；圖表儲存為 `actual-vs-predicted.png`。
+將 `train.py` 貼到 Kaggle Python Notebook 亦可執行（開啟 Internet）；圖表儲存為 `actual-vs-predicted.png`。
 
 CRISP-DM：商業理解 → 資料理解 → 資料準備 → 建模 → 評估 → 部署。40/10 切分，random_state=0，先切分再擬合 Pipeline。州別 OneHotEncoder(drop='first')，California 為參考類別。使用全部三項支出和州別；不刪除異常點。
 
